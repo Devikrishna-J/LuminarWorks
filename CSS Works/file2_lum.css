@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Irish+Grover&family=Pacifico&display=swap');
+body{
+    background-color: rgb(247, 217, 217);
+}
+h1{
+    color: darkgreen;
+    font-size: x-large;
+}
+p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    font-size:small;
+    color:darkred;
+}
+#b1{
+    
+    /*background-color: burlywood;*/
+    height: 250px;
+    width: 500px;
+    border: chartreuse solid 2px ;
+}
+#b2{
+    
+   /* background-color: burlywood;*/
+    height: 300px;
+    width: 500px;
+    /*border: rgb(7, 14, 1) solid 2px ;*/
+}
+label{
+    color: darkblue;
+}
+

@@ -1,0 +1,28 @@
+/////////////////////////map()
+/*var mob_names=mobiles.map(mob=>mob[2]);
+console.log(mob_names);
+var mob_price=mobiles.map(mob=>mob[3]);
+console.log(mob_price);*/
+
+////////////////////////filter()
+var mob_sam=mobiles.filter(mob=>mob[1]=="samsung");
+var mob_sam=mobiles.filter(mob=>mob[1]=="samsung").map(mob=>mob[2]);
+//console.log(mob_sam);
+
+//var mob_below=mobiles.filter(mob=>mob[3]<25000);
+var mob_below=mobiles.filter(mob=>mob[3]<25000).map(mob=>[mob[2],mob[3]]);
+//console.log(mob_below);
+var mob_range=mobiles.filter(mob=>mob[3]>=25000 && mob[3]<=30000);
+//console.log(mob_range);
+//Qn: list all 5g mobile names
+var mob_5g=mobiles.filter(mob=>mob[6]=="5G" || mob[6]=="5g").map(mob=>mob[2]);
+//console.log(mob_5g);
+//Qn: list all 5g mobiles available under 25000
+var mob_5g=mobiles.filter(mob=>mob[6]=="5G" && mob[3]<=25000);
+/*if(mob_5g.length<=0)
+   console.log("Mobile not available");    
+else
+    console.log(mob_5g);*/
+// list all samsung mobile names whose band=4g and display type AMOLED
+var mob_sam=mobiles.filter(mob=>mob[1]=="samsung" && ((mob[6]=="4g" || mob[6]=="4G") && mob[5]=="AMOLED")).map(mob=>mob[2]);
+console.log(mob_sam);

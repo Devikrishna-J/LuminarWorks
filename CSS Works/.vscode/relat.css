@@ -1,0 +1,44 @@
+.row
+{
+    border: black solid 2px;
+    height: 500px;
+    width: 500px;
+    background-color: darkgrey;
+    position: relative;
+}
+.col
+{
+    border: black solid 2px;
+    height: 200px;
+    width: 100px;
+}
+.col-1
+{
+    position: absolute;
+    background-color: darkorange;
+}
+.col-2
+{
+    background-color: darkturquoise;
+    position: absolute;
+    left: 107px;
+}
+.col-3
+{
+    background-color: firebrick;
+    position: absolute;
+    left: 214px;
+}
+.col-4
+{
+    background-color: fuchsia;
+    position: absolute;
+    left: 321px;
+}
+body
+{
+    background-image: url(../images/image1.jpg);
+    /*background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-position: center;
+}

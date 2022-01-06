@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Cookie&family=DM+Serif+Display&family=Lobster&family=Yeseva+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+   /* background-color:#AD6765;*/
+    background-color: rgb(248, 217, 76);
+    /*background-image: url("./images/logo_img2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+#homedecore_header
+{
+    
+    color: rgb(3, 3, 3);
+    background-color:#966F33;    
+    /*background-color:#AD8B65;*/
+    width: 100%;
+    height: 100px;
+    /*border: coral solid 2px;*/
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+   
+    
+}
+#homedecore_header #right_sect1{
+    font-family: 'Cookie', cursive;
+    font-size: 14px;
+}
+
+#homedecore_header #right_sect2 .nav{
+    font-size: small;
+    font-weight: bold 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #966F33;
+
+}
+#navbar_right .offcanvas-header
+{
+    background-color: #966F33;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+#navbar_right .offcanvas-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    background: white; 
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.navbar-toggler{
+    display: none;
+}
+#navbar_left{
+   /* border: aqua solid 2px;*/
+    width: 25%;
+    height:100px;
+    margin-left: 20px;
+    background-image: url("./images/logo-home12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y:bottom;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 80px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+  }
+#navbar_right{
+    /*border: blueviolet solid 2px;*/
+    width: 50%;
+    margin-left: 30px ;
+}
+
+
+#navbar_rightcorner{
+    /*border: blue solid 2px;*/
+    width: 20%;
+    margin-left: 10px; 
+}
+#navbar_rightcorner #rightcorner_sect1
+{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+#navbar_rightcorner #rightcorner_sect1 i{
+    margin-right: 20px;
+    color: black;
+    
+}
+#navbar_rightcorner #rightcorner_sect2
+{
+    width: 100%;
+    
+    margin-top: 20px;
+    margin-right: 30px;
+}
+#imgslide_top
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.offer_img{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 1306px;
+}
+.offer_img img{
+    width: 100%;
+}
+.heading_title{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Yeseva One', cursive;
+}
+.card-title, .modal-title{
+    color: brown;
+    font-size: large bold;
+    margin-top: 10px;
+}
+.card-text, .modal-body{
+    color: #0e0d0d;
+    font-family: 'Arima Madurai', cursive;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.modal-body{
+    background-color: #966F33;    
+}
+.modal-header{
+    background-color: rgb(24, 23, 23);
+}
+#smallscreen_wrapper .offcanvas-header
+{
+    background-color: #966F33;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+#smallscreen_wrapper .offcanvas .offcanvas-body
+{
+    background: white;    
+    width: 100%;
+
+}
+#smallscreen_wrapper .offcanvas .offcanvas-body li{
+   /* border: #966F33 solid 1px;*/
+    width:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium ;
+}
+#smallscreen_wrapper .offcanvas .offcanvas-body li a:hover{
+    background-color:rgb(134, 238, 16) ;
+    border:#966F33 solid 1px;
+    width: 100%;
+    display: inline-block;
+}
+/*.header_items{
+    width: 200px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    border: orange solid 2px;
+}
+.decore_header{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    
+    /*border: olivedrab solid 2px;
+}
+#logo_img
+{
+    width: 200px;
+    height: 80px;
+}
+.home_decore_header .header_items p{
+    padding-top: 20px;
+    margin-top: 20px;
+}*/
+
+.carousel {
+     width:100%; height:200px; 
+    }
+.carousel-inner .carousel-item img{
+    width:100%; height:200px; 
+    
+}
+#row_footer
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    gap: 10px;
+    width: 90%;
+}
+#col_footer
+{
+    width: 40%;
+    height: 200px;
+   /* border: black solid 2px;*/
+   
+}
+@media screen and (max-width: 800px){
+    #navbar_right #right_sect2,.offer_img{
+        display: none;
+    }
+    #navbar_right #right_sect1 h1{
+        font-size: x-large;
+        
+    }
+    #navbar_rightcorner {
+        display: none;
+    }
+    .navbar-toggler
+    {
+        display: block;
+    }
+}

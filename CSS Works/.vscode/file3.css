@@ -1,0 +1,13 @@
+div{
+    background-color: cadetblue;
+    height: 414px;
+    width: 20%;
+    float: left;
+    border: solid rgb(241, 230, 230) 2px;
+}
+img{
+    width: 80%;
+}
+div img{
+    width: 100%;
+}

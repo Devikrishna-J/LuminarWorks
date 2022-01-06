@@ -1,0 +1,38 @@
+body
+{
+    background-color: brown;
+}
+.parent
+{
+    border: black solid 2px;
+    background-color: chartreuse;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    /*position: fixed;
+    top: 100px;
+    left: 500px;*/
+    /*static,relatie,absolute,fixed,sticking*/
+}
+.child
+{
+    position: absolute;
+    left: 100%;
+    
+    border: rgb(8, 8, 8) solid 2px;
+    background-color: rgb(190, 221, 11);
+    height: 50px;
+    width: 20px;
+}
+#box1
+{
+    /*position: fixed;
+    top: 100px;
+    left: 200px;*/
+    position: sticky;
+    top: 100px;
+    border: rgb(8, 8, 8) solid 2px;
+    background-color: rgb(116, 16, 173);
+    height: 100px;
+    width: 150px;
+}

@@ -1,0 +1,47 @@
+body
+{
+    background-color: rgb(114, 114, 91);
+}
+#parent
+{
+    background-color: rgb(58 52 58);
+    height: 640px;
+    width: 29%;
+    border: rgb(1, 2, 14) solid 2px;
+    float: left;
+    padding: 20px;
+   
+}
+#rating
+{
+    border: black solid 2px;
+    height: 21px;
+    width: 158px;
+    color: blanchedalmond;
+    padding-left: 20px;
+    margin-left: 21px;
+}
+div img
+{
+    width: 50%;
+    padding-left: 100px;
+    /*margin-left: 100px;*/
+    /*height: 30%;*/
+    
+}
+p
+{
+    font-weight: bold;
+    color: blanchedalmond;
+    padding-left: 20px;
+    
+}
+h3{
+    padding-left: 133px;
+    color: chocolate;
+}
+h1{
+    /*padding-left: 133px;*/
+    text-align: center;
+    color: rgb(8, 8, 8);
+}

@@ -1,0 +1,7 @@
+div{
+    background-color: cadetblue;
+    height: 300px;
+    width: 200px;
+    float: left;
+    border: solid black 2px;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Irish+Grover&family=Pacifico&display=swap');
+body{
+    background-color: black;
+}
+div{
+    height: 100px;
+    width: 75px;
+}
+#b11{
+
+    background-color: #373738;
+    margin-left: 500px;
+    /*margin-top: 200px;*/
+
+}
+#b12{
+    background-color: #a7cf86;
+    margin-left: 587px;
+    margin-top: -99px;
+}
+#b13{
+
+    background-color: #4ca855;
+    margin-left: 671px;
+    margin-top: -100px;
+
+}
+#b14{
+    background-color: #05f21c;
+    margin-left: 757px;
+    margin-top: -101px;
+}
+#b15{
+
+    background-color: white;
+    margin-left: 842px;
+    margin-top: -99px;
+
+}
+#b21{
+    background-color: chartreuse;
+    margin-left: 416px;
+    margin-top: 22px;
+}
+#b22{
+    background-color: rgb(0, 26, 255);
+    margin-left: 500px;
+    margin-top: -99px;
+}
+#b23{
+    background-color: rgb(255, 0, 242);
+    margin-left: 589px;
+    margin-top: -100px;
+}
+#b24{
+    background-color: rgb(255, 0, 0);
+    margin-left: 675px;
+    margin-top: -101px;
+}
+#b25{
+    background-color: rgb(238, 255, 0);
+    margin-left: 762px;
+    margin-top: -99px;
+}
+#b26{
+    background-color: rgb(0, 217, 255);
+    margin-left: 847px;
+    margin-top: -100px;
+}
+#b27{
+    background-color: rgb(212, 0, 255);
+    margin-left: 933px;
+    margin-top: -100px;
+}
+
+#b31{
+    background-color: #bbc2bc;
+    margin-left: 332px;
+    margin-top: 17px;
+}
+#b32{
+
+    background-color: rgb(221, 15, 15);
+    margin-left: 419px;
+    margin-top: -99px;
+
+}
+#b33{
+    background-color: rgb(0, 195, 255);
+    margin-left: 502px;
+    margin-top: -100px;
+}
+#b34{
+    background-color: rgb(255, 196, 0);
+    margin-left: 1021px;
+    margin-top: -99px;
+}
+#b35{
+    background-color: #3c4622;
+    margin-left: 589px;
+    margin-top: -100px;
+}
+#b36{
+    background-color: rgb(207, 106, 106);
+    margin-left: 675px;
+    margin-top: -101px;
+}
+#b37{
+    background-color: rgb(68, 167, 167);
+    margin-left: 762px;
+    margin-top: -99px;
+}
+#b38{
+    background-color: rgb(112, 95, 177);
+    margin-left: 847px;
+    margin-top: -100px;
+}
+#b39{
+    background-color: rgb(247, 68, 55);
+    margin-left: 933px;
+    margin-top: -100px;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Luckiest Guy', cursive;
+}

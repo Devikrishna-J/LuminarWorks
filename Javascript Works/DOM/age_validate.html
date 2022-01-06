@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="age">
+    <button onclick="validateAge()">Validate</button>
+    <div id="result"></div>
+</body>
+<script>
+    function validateAge(){
+        //method1
+      /*  let age=document.querySelector("#age").value;
+        let html_data=""
+        let html_style=""
+        if(age>18){
+            html_data+="access granted";   
+            html_style+="green"  
+        }
+        else{
+            html_data+="denied"
+            html_style+="red"
+        }
+           
+
+        document.querySelector("#result").innerHTML=html_data
+        document.querySelector("#result").style.color=html_style*/
+        //method2
+        let ag=age.value;
+        let html_data=``
+        if(ag>18){
+            html_data=`<p style=color:green>access granted`
+        }
+        else
+            html_data=`<p style=color:red>access denied`
+        result.innerHTML=html_data
+    }
+</script>
+</html>

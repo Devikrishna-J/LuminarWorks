@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b4549bcce0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <!--<form action="" name="forms" id="forms">-->
+        <div id="cal_div">
+            <div id="display_div">
+                <input type="text" id="display_result" name="display_result" disabled>            
+            </div>
+            <div id="numbers_div"> 
+                <div id="numbers_left" class="buttons">
+                    <input type="button" id="clear" value="AC" onclick="clearBox()" class="operation1">
+                    <input type="button" id="plusminus"  value="+/-" class="operation1">
+                    <button id="backspace" class="operation1" onclick="backspaceNum()"><i class="fas fa-backspace"></i></button>
+                    <!--<input type="button" id="percentage" value="%" class="operation1">-->
+                    <input type="button" id="divide" value="/" class="operation2" onclick="displayNum('/')">
+                    <br>
+                    <input type="button" id="seven" value="7" onclick="displayNum('7')">
+                    <input type="button" id="eight" value="8" onclick="displayNum('8')">
+                    <input type="button" id="nine" value="9" onclick="displayNum('9')">
+                    <input type="button" id="multiplication" value="*" class="operation2" onclick="displayNum('*')">
+                    <br>
+                    <input type="button" id="four" value="4" onclick="displayNum('4')">
+                    <input type="button" id="five" value="5" onclick="displayNum('5')">
+                    <input type="button" id="six" value="6" onclick="displayNum('6')">
+                    <input type="button" id="subtraction" value="-" class="operation2" onclick="displayNum('-')">
+                    <br>
+                    <input type="button" id="three" value="3" onclick="displayNum('3')">
+                    <input type="button" id="two" value="2" onclick="displayNum('2')">
+                    <input type="button" id="one" value="1" onclick="displayNum('1')">
+                    <input type="button" id="addition" value="+" class="operation2" onclick="displayNum('+')">
+                    <br>
+                    
+                    <input type="button" id="zero" value="0" onclick="displayNum('0')" style="width: 112px;height: 50px; border-radius: 32px;"> 
+                    <input type="button" id="dot" value=".">
+                    <input type="button" id="equal" value="=" onclick="evaluateExpression()" class="operation2">
+                    <br>
+                    
+    
+                </div>
+                
+            </div>
+        </div>
+    <!--</form>-->
+    
+    
+</body>
+</html>

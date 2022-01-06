@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Irish+Grover&family=Pacifico&display=swap');
+h1{
+    color: darkgreen;
+}
+#a1{
+    color: darkorange;
+}
+.a2{
+    color: red;
+}
+body{
+  
+}
+header{
+    background-color: slateblue;
+}
+#p1{
+    font-family: 'Fruktur', cursive;
+}
+#p2{
+    font-family: 'Irish Grover', cursive;
+}
+#b1{
+    color: black;
+    background-color: burlywood;
+    height: 100px;
+    width: 500px;
+    border: chartreuse solid 2px ;
+}
+#b2{
+    color: black;
+    background-color: rgb(241, 142, 11);
+    height: 100px;
+    width: 500px;
+    border: rgb(53, 17, 214) solid 2px ;
+}
+/*font-family: 'Irish Grover', cursive;
+font-family: 'Pacifico', cursive;
+}*/

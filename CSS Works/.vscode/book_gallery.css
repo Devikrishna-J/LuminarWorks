@@ -1,0 +1,25 @@
+body
+{
+    background-color: rgb(114, 114, 91);
+}
+div
+{
+    background-color: rgb(233 212 232);
+    height: 547px;
+    width: 29%;
+    border: rgb(1, 2, 14) solid 2px;
+    float: left;
+   
+}
+div img
+{
+    width: 60%;
+    margin-left: 100px;
+    height: 30%;
+    
+}
+p
+{
+    font-weight: bold;
+    /*letter-spacing:2px;*/
+}
